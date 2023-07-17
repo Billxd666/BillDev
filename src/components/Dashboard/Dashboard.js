@@ -1,3 +1,5 @@
+
+
 const scrollDown = () => {
   window.scrollTo ({
     top:700,
@@ -7,15 +9,15 @@ const scrollDown = () => {
 
 function Dashboard() {
   return (
-    <div className="py-20 ">
+    <div className="py-20 "  >
       <div className="text-center">
-        <p className="text-blues font-serif font-semibold text-2xl ">
-          Soy es Billy
+        <p className="text-white font-serif font-semibold text-2xl ">
+          Soy Billy
         </p>
-        <p className="font-bold text-slate-900 text-4xl">
+        <p className="font-bold text-slate-50 text-4xl">
           Creo paginas web y aplicaciones multiplataforma
         </p>
-        <p className=" text-slate-800 font-extralight text-3xl">
+        <p className=" text-slate-100 font-extralight text-3xl">
           Soy desarrollador fullstack de paginas web y programador de
           aplicaciones multiplataforma{" "}
         </p>
