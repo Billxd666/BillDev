@@ -2,10 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Navbar from './components/Navbar';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
-import Footer from './components/footer/Footer';
 
 
 
@@ -13,9 +11,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-    <Navbar/>
+
     <App/>
-    <Footer/>
+
     </BrowserRouter>
   </React.StrictMode>
 );
