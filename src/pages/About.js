@@ -17,24 +17,15 @@ function About() {
           </div>
           <div className="p-8 text-justify font-serif font-light md:text-2xl">
             <p class=" mb-5">
-              Soy Billy, un desarrollador web backend y frontend, soy un
-              apasionado de la tecnologia y siempre estoy actualizandome para
-              pensar fuera de la caja
-            </p>
-
-            <p class="mb-5">
-              Cuento con conocimientos en javascript, typescript, html, css,
-              tailwind css, sass, node js y git.
-            </p>
-
-            <p class="mb-5">
-              Actualmente me estoy especializando en frameworks como React en el
-              frontend con typescript y Golang en el backend.
+              Soy Billy, un desarrollador web backend y frontend, aunque
+              actualmente estoy especializándome mucho mas en el backend ya que
+              me gusta mucho mas
             </p>
 
             <p class="text-left">
-              Mi enfoque es escribir codigo simple y limpio para problemas
-              complejos con un alto rendimiento.
+              Siempre trato de como mejorar mi código, y la mayoría de mi tiempo
+              libre es leer y practicar o incluso refactorizar el código de mis
+              proyectos
             </p>
           </div>
         </div>
@@ -44,15 +35,14 @@ function About() {
         <h2 class="font-semibold text-2xl  mb-7">Trabajo</h2>
         <p class="text-justify text-xl mb-7">
           Actualmente trabajo de freelance y estoy disponible para cualquier
-          proyecto que tengas en mente
+          proyecto que tengas en mente o estoy libre para aplicar a una vacante.
         </p>
 
         <h2 class="font-semibold text-2xl mb-7">Blog </h2>
         <p class="text-justify text-xl mb-7">
-          Me gusta escribir acerca de las tecnologias que voy aprendiendo con el
-          tiempo o en las que voy mejorando o descubriendo formas para mejorar
-          en el desarrollo de software, asi que estoy trabajando en un blog que
-          estara disponible proximamente.
+          Me gusta escribir acerca de las que voy aprendiendo con el tiempo o en
+          las que voy mejorando o descubriendo formas para mejorar en el
+          desarrollo de software que estoy trabajando en un blog que disponible.
         </p>
       </div>
     </div>

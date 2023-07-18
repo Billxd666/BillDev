@@ -1,6 +1,6 @@
 function Portafolio () {
     return (
-        <h1>Portafolio</h1>
+        <h1>En mantenimiento</h1>
     )
 }
 

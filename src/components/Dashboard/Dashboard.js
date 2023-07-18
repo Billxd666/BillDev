@@ -15,11 +15,10 @@ function Dashboard() {
           Soy Billy
         </p>
         <p className="font-bold text-slate-50 text-4xl">
-          Creo paginas web y aplicaciones multiplataforma
+          Creo paginas web 
         </p>
         <p className=" text-slate-100 font-extralight text-3xl">
-          Soy desarrollador fullstack de paginas web y programador de
-          aplicaciones multiplataforma{" "}
+          Soy desarrollador fullstack de paginas web
         </p>
 
         <div className="w-40 p-2 flex mx-auto pt-4">

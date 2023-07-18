@@ -5,7 +5,6 @@ import Portafolio from './pages/Portafolio';
 import About from './pages/About';
 import './App.css';
 import Content_Homepage from "./components/Content_homepage";
-import Card from "./components/card";
 import Navbar from "./components/Navbar";
 import Footer from "./components/footer/Footer";
 
@@ -18,7 +17,6 @@ function App() {
         <Route path="/portafolio" element={<Portafolio/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/content" element={<Content_Homepage/>}/>
-        <Route path="/card" element={<Card/>}/>
       </Route>
     </Routes>
   );
