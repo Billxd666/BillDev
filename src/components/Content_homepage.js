@@ -13,7 +13,7 @@ function Content_Homepage() {
       <section className="flex-col md:flex md:flex-row justify-around h-auto py-20 bg-blues text-white">
         <div className="basis-1/4">
           <div className="text-center">
-            <img className="w-24 mx-auto py-4" src={logo3} />
+            <img className="w-24 mx-auto py-4" src={logo3} alt="logo3"/>
             <p className="py-4 text-lg font-semibold"> React</p>
             <p className="py-4">
               Creo interfaces por componentes para mantener mi trabajo limpio y
@@ -23,7 +23,7 @@ function Content_Homepage() {
         </div>
         <div className="basis-1/4">
           <div className="text-center">
-            <img className="w-24 mx-auto py-4" src={logo4} />
+            <img className="w-24 mx-auto py-4" src={logo4} alt="logo4"/>
             <p className="py-4 text-lg font-semibold "> Tawilwind css</p>
             <p className="py-4">
               Actualmente como framework principal de css uso tailwind por su
@@ -33,7 +33,7 @@ function Content_Homepage() {
         </div>
         <div className="basis-1/4">
           <div className="text-center">
-            <img className="w-24 mx-auto py-4" src={logo5} />
+            <img className="w-24 mx-auto py-4" src={logo5} alt="logo5"/>
             <p className="py-4 text-lg font-semibold"> Sass</p>
             <p className="py-4">
               Si se busca un diseño mas especifico uso sass como preprocesador
@@ -46,7 +46,7 @@ function Content_Homepage() {
       <section className=" flex-col md:flex md:flex-row justify-around h-auto py-20">
         <div className="basis-1/4">
           <div className="text-center">
-            <img className="w-24 mx-auto py-4" src={logo1} />
+            <img className="w-24 mx-auto py-4" src={logo1}  alt="logo1"/>
             <p className="py-4 text-lg font-semibold"> Golang</p>
             <p className="py-4">
               Por ahora me estoy dedicando mas a este lenguaje por su manejo de
@@ -56,7 +56,7 @@ function Content_Homepage() {
         </div>
         <div className="basis-1/4">
           <div className="text-center">
-            <img className="w-24 mx-auto " src={logo2} />
+            <img className="w-24 mx-auto " src={logo2} alt="logo2"/>
             <p className="py-4 text-lg font-semibold"> Gin</p>
             <p className="py-4">
               Como framework http uso gin gonic por su rendimiento que presume
@@ -69,7 +69,7 @@ function Content_Homepage() {
       <section className="flex-col md:flex md:flex-row justify-around h-auto py-20 bg-blues text-white">
         <div className="basis-1/4">
           <div className="text-center">
-            <img className="w-24 mx-auto py-4" src={logo6} />
+            <img className="w-24 mx-auto py-4" src={logo6} alt="logo6"/>
             <p className="py-4 text-lg font-semibold"> Typescript</p>
             <p className="py-4">
               Typescript a mi parecer es muy util al mejorar javascript con su
@@ -81,7 +81,7 @@ function Content_Homepage() {
         </div>
         <div className="basis-1/4">
           <div className="text-center">
-            <img className="w-24 mx-auto py-4" src={logo7} />
+            <img className="w-24 mx-auto py-4" src={logo7} alt="logo7"/>
             <p className="py-4 text-lg font-semibold"> Node js</p>
             <p className="py-4">
               Otra herramienta que uso es nodejs para crear api junto con
@@ -91,7 +91,7 @@ function Content_Homepage() {
         </div>
         <div className="basis-1/4">
           <div className="text-center">
-            <img className="h-24 mx-auto py-4" src={logo8} />
+            <img className="h-24 mx-auto py-4" src={logo8} alt="logo8"/>
             <p className="py-4 text-lg font-semibold"> Express js</p>
             <p className="py-4">
               Express es uno de mis framework web preferidos para usar junto con
