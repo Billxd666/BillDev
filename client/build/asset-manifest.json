@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c58b4b51.css",
+    "main.js": "/static/js/main.9c22bd56.js",
+    "static/js/787.875fa36d.chunk.js": "/static/js/787.875fa36d.chunk.js",
+    "static/media/back.png": "/static/media/back.cbe9bbef37e6cd35a11e.png",
+    "static/media/bill.jpg": "/static/media/bill.1fed13d1a2a7a70aed32.jpg",
+    "static/media/ginLogo.svg": "/static/media/ginLogo.089b082efba1f88e8e2ec665498c52bb.svg",
+    "static/media/nodeLogo.svg": "/static/media/nodeLogo.4d8b9a0c5a604b6b68d3750273f913d6.svg",
+    "static/media/gologo.png": "/static/media/gologo.ef688fa10842e4690eaa.png",
+    "static/media/SassLogo.svg": "/static/media/SassLogo.540ec25faf04e640b555c5773d3a6d9f.svg",
+    "static/media/expressjslogo.svg": "/static/media/expressjslogo.493a0dd08d8d77a341e2d22676607a29.svg",
+    "static/media/typescript (1).svg": "/static/media/typescript (1).a6305a733dd55243980aec55f96f70c5.svg",
+    "index.html": "/index.html",
+    "static/media/tailwind1.svg": "/static/media/tailwind1.017e1e304e12384d156d384f40a4b5f8.svg",
+    "static/media/reactLogo.svg": "/static/media/reactLogo.928f956d9c8ebcffb98a8e917154a81a.svg",
+    "main.c58b4b51.css.map": "/static/css/main.c58b4b51.css.map",
+    "main.9c22bd56.js.map": "/static/js/main.9c22bd56.js.map",
+    "787.875fa36d.chunk.js.map": "/static/js/787.875fa36d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c58b4b51.css",
+    "static/js/main.9c22bd56.js"
+  ]
+}
