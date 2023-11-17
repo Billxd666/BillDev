@@ -1,29 +1,40 @@
-import Content_Homepage from "../components/Content_homepage";
-import Dashboard from "../components/Dashboard/Dashboard";
-import background from "..//icons/back.png"
+import fondo from "../images/fondo.jpg";
+import SolutionSection from "../components/SolutionSection";
+
+const scrollDown = () => {
+  window.scrollTo({
+    top: 700,
+    behavior: "smooth",
+  });
+};
 
 function Homepage() {
   return (
-    <div >
-      <div style={{backgroundImage: `url(${background})` }}>
-      <section id="sec1" className="py-0 md:py-40 border-b-4  ">
-        <div >
-        <Dashboard />
+    <div className="home-cont">
+      <div className="header-logo" style={{ backgroundImage: `url(${fondo})` }}>
+        <h1>Mi nombre es billy </h1>
+        <h2>Soy desarrollador backend</h2>
+        <div className="home-button">
+          <button className="buttonM1" onClick={scrollDown}>
+            Explorar
+          </button>
         </div>
-      </section>
       </div>
 
-      <section id="sec2">
-        <div className="text-center py-48 border-b-4 " >
-          <p className="font-bold text-2xl">
-            Aplicaciones web rapidas y confiables
-          </p>
-          <p>
-            Mi objetivo es crear soluciones con el mejor rendimiento posible
-          </p>
+      <div className="header-introduction">
+        <div className="intro-text">
+          <div className="textI">
+            <p>
+              Actualmente mi lenguaje principal es golang aunque tambien
+              desarrollo frontend, me gusta planear y desarrollar soluciones
+              simples para problemas complejos siempre con un enfoque de
+              eficiencia de recursos y buenas practicas.{" "}
+            </p>
+          </div>
         </div>
-        <Content_Homepage />
-      </section>
+      </div>
+
+      <SolutionSection />
     </div>
   );
 }
