@@ -3,20 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import App from './App';
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { RouterProvider, createHashRouter } from 'react-router-dom';
 import Homepage from './pages/Homepage';
 import Blog from './pages/Blog';
 import Portafolio from './pages/Portafolio';
 import About from './pages/About';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <App />,
 
     children: [
       {
-        path: "",
+        path: "/",
         element: <Homepage />
 
       },
